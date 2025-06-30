@@ -1,0 +1,1240 @@
+Environment:
+	Python: 3.9.20
+	PyTorch: 2.5.1
+	Torchvision: 0.20.1
+	CUDA: None
+	CUDNN: None
+	NumPy: 1.26.4
+	PIL: 11.0.0
+Traceback (most recent call last):
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\train.py", line 107, in <module>
+    train_loaders, eval_loaders = get_img_dataloader(args)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\datautil\getdataloader.py", line 12, in get_img_dataloader
+    rate = 0.2
+KeyboardInterrupt
+Environment:
+	Python: 3.9.20
+	PyTorch: 2.5.1
+	Torchvision: 0.20.1
+	CUDA: None
+	CUDNN: None
+	NumPy: 1.26.4
+	PIL: 11.0.0
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.1.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1570, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.1.1\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\train.py", line 107, in <module>
+    train_loaders, eval_loaders = get_img_dataloader(args)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\datautil\getdataloader.py", line 19, in get_img_dataloader
+    tedatalist.append(ImageDataset(args.dataset, args.task, args.data_dir,
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\datautil\imgdata\imgdataload.py", line 12, in __init__
+    self.imgs = ImageFolder(root_dir+domain_name).imgs
+  File "C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torchvision\datasets\folder.py", line 328, in __init__
+    super().__init__(
+  File "C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torchvision\datasets\folder.py", line 149, in __init__
+    classes, class_to_idx = self.find_classes(self.root)
+  File "C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torchvision\datasets\folder.py", line 234, in find_classes
+    return find_classes(directory)
+  File "C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torchvision\datasets\folder.py", line 41, in find_classes
+    classes = sorted(entry.name for entry in os.scandir(directory) if entry.is_dir())
+FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'amazon'
+Environment:
+	Python: 3.9.20
+	PyTorch: 2.5.1
+	Torchvision: 0.20.1
+	CUDA: None
+	CUDNN: None
+	NumPy: 1.26.4
+	PIL: 11.0.0
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.1.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1570, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.1.1\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\train.py", line 107, in <module>
+    train_loaders, eval_loaders = get_img_dataloader(args)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\datautil\getdataloader.py", line 19, in get_img_dataloader
+    tedatalist.append(ImageDataset(args.dataset, args.task, args.data_dir,
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\datautil\imgdata\imgdataload.py", line 12, in __init__
+    self.imgs = ImageFolder(root_dir+domain_name).imgs
+  File "C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torchvision\datasets\folder.py", line 328, in __init__
+    super().__init__(
+  File "C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torchvision\datasets\folder.py", line 149, in __init__
+    classes, class_to_idx = self.find_classes(self.root)
+  File "C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torchvision\datasets\folder.py", line 234, in find_classes
+    return find_classes(directory)
+  File "C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torchvision\datasets\folder.py", line 41, in find_classes
+    classes = sorted(entry.name for entry in os.scandir(directory) if entry.is_dir())
+FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'dataset/office31amazon'
+Environment:
+	Python: 3.9.20
+	PyTorch: 2.5.1
+	Torchvision: 0.20.1
+	CUDA: None
+	CUDNN: None
+	NumPy: 1.26.4
+	PIL: 11.0.0
+C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Traceback (most recent call last):
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\train.py", line 110, in <module>
+    algorithm = algorithm_class(args).cuda()
+  File "C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torch\nn\modules\module.py", line 1050, in cuda
+    return self._apply(lambda t: t.cuda(device))
+  File "C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torch\nn\modules\module.py", line 900, in _apply
+    module._apply(fn)
+  File "C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torch\nn\modules\module.py", line 900, in _apply
+    module._apply(fn)
+  File "C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torch\nn\modules\module.py", line 927, in _apply
+    param_applied = fn(param)
+  File "C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torch\nn\modules\module.py", line 1050, in <lambda>
+    return self._apply(lambda t: t.cuda(device))
+  File "C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torch\cuda\__init__.py", line 310, in _lazy_init
+    raise AssertionError("Torch not compiled with CUDA enabled")
+AssertionError: Torch not compiled with CUDA enabled
+Environment:
+	Python: 3.9.20
+	PyTorch: 2.5.1
+	Torchvision: 0.20.1
+	CUDA: None
+	CUDNN: None
+	NumPy: 1.26.4
+	PIL: 11.0.0
+C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+=======hyper-parameter used========
+==========================================
+algorithm:ERM
+alpha:1
+anneal_iters:500
+batch_size:32
+beta:1
+beta1:0.5
+bottleneck:256
+checkpoint_freq:3
+classifier:linear
+data_file:
+dataset:office
+data_dir:dataset/office31/
+dis_hidden:256
+disttype:2-norm
+gpu_id:0
+groupdro_eta:1
+inner_lr:0.01
+lam:1
+layer:bn
+lr:0.01
+lr_decay:0.75
+lr_decay1:1.0
+lr_decay2:1.0
+lr_gamma:0.0003
+max_epoch:120
+mixupalpha:0.2
+mldg_beta:1
+mmd_gamma:1
+momentum:0.9
+net:resnet50
+N_WORKERS:4
+rsc_f_drop_factor:0.3333333333333333
+rsc_b_drop_factor:0.3333333333333333
+save_model_every_checkpoint:False
+schuse:False
+schusech:cos
+seed:0
+split_style:strat
+task:img_dg
+tau:1
+test_envs:[0]
+output:train_output
+weight_decay:0.0005
+steps_per_epoch:100
+domains:['amazon', 'dslr', 'webcam']
+img_dataset:{'office': ['amazon', 'dslr', 'webcam'], 'office-caltech': ['amazon', 'dslr', 'webcam', 'caltech'], 'office-home': ['Art', 'Clipart', 'Product', 'Real_World'], 'PACS': ['art_painting', 'cartoon', 'photo', 'sketch'], 'dg5': ['mnist', 'mnist_m', 'svhn', 'syn', 'usps'], 'VLCS': ['Caltech101', 'LabelMe', 'SUN09', 'VOC2007']}
+input_shape:(3, 224, 224)
+num_classes:31
+domain_num:3
+
+===========start training===========
+Traceback (most recent call last):
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\train.py", line 142, in <module>
+    step_vals = algorithm.update(minibatches_device, opt, sch)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\alg\algs\ERM.py", line 26, in update
+    all_x = torch.cat([data[0].cuda().float() for data in minibatches])
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\alg\algs\ERM.py", line 26, in <listcomp>
+    all_x = torch.cat([data[0].cuda().float() for data in minibatches])
+  File "C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torch\cuda\__init__.py", line 310, in _lazy_init
+    raise AssertionError("Torch not compiled with CUDA enabled")
+AssertionError: Torch not compiled with CUDA enabled
+Environment:
+	Python: 3.9.20
+	PyTorch: 2.5.1
+	Torchvision: 0.20.1
+	CUDA: None
+	CUDNN: None
+	NumPy: 1.26.4
+	PIL: 11.0.0
+C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+=======hyper-parameter used========
+==========================================
+algorithm:ERM
+alpha:1
+anneal_iters:500
+batch_size:32
+beta:1
+beta1:0.5
+bottleneck:256
+checkpoint_freq:3
+classifier:linear
+data_file:
+dataset:office
+data_dir:dataset/office31/
+dis_hidden:256
+disttype:2-norm
+gpu_id:0
+groupdro_eta:1
+inner_lr:0.01
+lam:1
+layer:bn
+lr:0.01
+lr_decay:0.75
+lr_decay1:1.0
+lr_decay2:1.0
+lr_gamma:0.0003
+max_epoch:120
+mixupalpha:0.2
+mldg_beta:1
+mmd_gamma:1
+momentum:0.9
+net:resnet50
+N_WORKERS:4
+rsc_f_drop_factor:0.3333333333333333
+rsc_b_drop_factor:0.3333333333333333
+save_model_every_checkpoint:False
+schuse:False
+schusech:cos
+seed:0
+split_style:strat
+task:img_dg
+tau:1
+test_envs:[0]
+output:train_output
+weight_decay:0.0005
+steps_per_epoch:100
+domains:['amazon', 'dslr', 'webcam']
+img_dataset:{'office': ['amazon', 'dslr', 'webcam'], 'office-caltech': ['amazon', 'dslr', 'webcam', 'caltech'], 'office-home': ['Art', 'Clipart', 'Product', 'Real_World'], 'PACS': ['art_painting', 'cartoon', 'photo', 'sketch'], 'dg5': ['mnist', 'mnist_m', 'svhn', 'syn', 'usps'], 'VLCS': ['Caltech101', 'LabelMe', 'SUN09', 'VOC2007']}
+input_shape:(3, 224, 224)
+num_classes:31
+domain_num:3
+
+===========start training===========
+Traceback (most recent call last):
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\train.py", line 142, in <module>
+    step_vals = algorithm.update(minibatches_device, opt, sch)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\alg\algs\ERM.py", line 32, in update
+    loss.backward()
+  File "C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torch\_tensor.py", line 581, in backward
+    torch.autograd.backward(
+  File "C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torch\autograd\__init__.py", line 347, in backward
+    _engine_run_backward(
+  File "C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torch\autograd\graph.py", line 825, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
+Environment:
+	Python: 3.9.20
+	PyTorch: 2.5.1
+	Torchvision: 0.20.1
+	CUDA: None
+	CUDNN: None
+	NumPy: 1.26.4
+	PIL: 11.0.0
+Traceback (most recent call last):
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\train.py", line 108, in <module>
+    train_loaders, eval_loaders = get_img_dataloader(args)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\datautil\getdataloader.py", line 17, in get_img_dataloader
+    for i in range(len(names)):
+KeyboardInterrupt
+Environment:
+	Python: 3.9.20
+	PyTorch: 2.5.1
+	Torchvision: 0.20.1
+	CUDA: None
+	CUDNN: None
+	NumPy: 1.26.4
+	PIL: 11.0.0
+Traceback (most recent call last):
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\train.py", line 109, in <module>
+    eval_name_dict = train_valid_target_eval_names(args)
+KeyboardInterrupt
+Environment:
+	Python: 3.9.20
+	PyTorch: 2.5.1
+	Torchvision: 0.20.1
+	CUDA: None
+	CUDNN: None
+	NumPy: 1.26.4
+	PIL: 11.0.0
+Traceback (most recent call last):
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\train.py", line 108, in <module>
+    train_loaders, eval_loaders = get_img_dataloader(args)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\datautil\getdataloader.py", line 16, in get_img_dataloader
+    args.domain_num = len(names)
+KeyboardInterrupt
+No such dataset exists!
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.1.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1570, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.1.1\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\train.py", line 105, in <module>
+    args = get_args()
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\train.py", line 98, in get_args
+    args = img_param_init(args)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\utils\util.py", line 112, in img_param_init
+    args.domains = domains
+UnboundLocalError: local variable 'domains' referenced before assignment
+No such dataset exists!
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.1.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1570, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.1.1\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\train.py", line 105, in <module>
+    args = get_args()
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\train.py", line 98, in get_args
+    args = img_param_init(args)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\utils\util.py", line 112, in img_param_init
+    args.domains = domains
+UnboundLocalError: local variable 'domains' referenced before assignment
+No such dataset exists!
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.1.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1570, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.1.1\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\train.py", line 105, in <module>
+    args = get_args()
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\train.py", line 98, in get_args
+    args = img_param_init(args)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\utils\util.py", line 112, in img_param_init
+    args.domains = domains
+UnboundLocalError: local variable 'domains' referenced before assignment
+Environment:
+	Python: 3.9.20
+	PyTorch: 2.5.1
+	Torchvision: 0.20.1
+	CUDA: None
+	CUDNN: None
+	NumPy: 1.26.4
+	PIL: 11.0.0
+Traceback (most recent call last):
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\train.py", line 109, in <module>
+    train_loaders, eval_loaders = get_img_dataloader(args)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\datautil\getdataloader.py", line 18, in get_img_dataloader
+    if i in args.test_envs:
+KeyboardInterrupt
+Environment:
+	Python: 3.9.20
+	PyTorch: 2.5.1
+	Torchvision: 0.20.1
+	CUDA: None
+	CUDNN: None
+	NumPy: 1.26.4
+	PIL: 11.0.0
+Environment:
+	Python: 3.9.20
+	PyTorch: 2.5.1
+	Torchvision: 0.20.1
+	CUDA: None
+	CUDNN: None
+	NumPy: 1.26.4
+	PIL: 11.0.0
+Traceback (most recent call last):
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\train.py", line 112, in <module>
+    algorithm = algorithm_class(args).to(device)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\alg\algs\ERM.py", line 18, in __init__
+    self.featurizer = get_fea(args)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\alg\modelopera.py", line 7, in get_fea
+KeyboardInterrupt
+Environment:
+	Python: 3.9.20
+	PyTorch: 2.5.1
+	Torchvision: 0.20.1
+	CUDA: None
+	CUDNN: None
+	NumPy: 1.26.4
+	PIL: 11.0.0
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.1.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1570, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.1.1\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\train.py", line 112, in <module>
+    algorithm = algorithm_class(args).to(device)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\alg\algs\ERM.py", line 20, in __init__
+    args.num_classes, self.featurizer.in_features, args.classifier)
+AttributeError: 'Namespace' object has no attribute 'num_classes'
+Environment:
+	Python: 3.9.20
+	PyTorch: 2.5.1
+	Torchvision: 0.20.1
+	CUDA: None
+	CUDNN: None
+	NumPy: 1.26.4
+	PIL: 11.0.0
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.1.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1570, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.1.1\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\train.py", line 112, in <module>
+    algorithm = algorithm_class(args).to(device)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\alg\algs\ERM.py", line 20, in __init__
+    args.num_classes, self.featurizer.in_features, args.classifier)
+AttributeError: 'Namespace' object has no attribute 'num_classes'
+Environment:
+	Python: 3.9.20
+	PyTorch: 2.5.1
+	Torchvision: 0.20.1
+	CUDA: None
+	CUDNN: None
+	NumPy: 1.26.4
+	PIL: 11.0.0
+Traceback (most recent call last):
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\train.py", line 117, in <module>
+    s = print_args(args, [])
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\utils\util.py", line 63, in print_args
+    l = len(print_list)
+KeyboardInterrupt
+Environment:
+	Python: 3.9.20
+	PyTorch: 2.5.1
+	Torchvision: 0.20.1
+	CUDA: None
+	CUDNN: None
+	NumPy: 1.26.4
+	PIL: 11.0.0
+=======hyper-parameter used========
+==========================================
+algorithm:ERM
+alpha:1
+anneal_iters:500
+batch_size:32
+beta:1
+beta1:0.5
+bottleneck:256
+checkpoint_freq:3
+classifier:linear
+data_file:
+dataset:sEMG
+data_dir:dataset/sEMG/
+dis_hidden:256
+disttype:2-norm
+gpu_id:0
+groupdro_eta:1
+inner_lr:0.01
+lam:1
+layer:bn
+lr:0.01
+lr_decay:0.75
+lr_decay1:1.0
+lr_decay2:1.0
+lr_gamma:0.0003
+max_epoch:120
+mixupalpha:0.2
+mldg_beta:1
+mmd_gamma:1
+momentum:0.9
+net:resnet50
+N_WORKERS:4
+rsc_f_drop_factor:0.3333333333333333
+rsc_b_drop_factor:0.3333333333333333
+save_model_every_checkpoint:False
+schuse:False
+schusech:cos
+seed:0
+split_style:strat
+task:img_dg
+tau:1
+test_envs:[0]
+output:train_output
+weight_decay:0.0005
+steps_per_epoch:100
+domains:['s1', 's2', 's3', 's4']
+img_dataset:{'office': ['amazon', 'dslr', 'webcam'], 'office-caltech': ['amazon', 'dslr', 'webcam', 'caltech'], 'office-home': ['Art', 'Clipart', 'Product', 'Real_World'], 'PACS': ['art_painting', 'cartoon', 'photo', 'sketch'], 'dg5': ['mnist', 'mnist_m', 'svhn', 'syn', 'usps'], 'VLCS': ['Caltech101', 'LabelMe', 'SUN09', 'VOC2007'], 'sEMG': ['s1', 's2', 's3', 's4']}
+input_shape:(3, 224, 224)
+num_classes:4
+domain_num:4
+
+===========start training===========
+===========epoch 0===========
+class_loss:0.1148
+Traceback (most recent call last):
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\train.py", line 158, in <module>
+    acc_record[item] = np.mean(np.array([modelopera.accuracy(
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\train.py", line 158, in <listcomp>
+    acc_record[item] = np.mean(np.array([modelopera.accuracy(
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\alg\modelopera.py", line 57, in accuracy
+    x = data[0].cuda().float()
+  File "C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torch\cuda\__init__.py", line 310, in _lazy_init
+    raise AssertionError("Torch not compiled with CUDA enabled")
+AssertionError: Torch not compiled with CUDA enabled
+Environment:
+	Python: 3.9.20
+	PyTorch: 2.5.1
+	Torchvision: 0.20.1
+	CUDA: None
+	CUDNN: None
+	NumPy: 1.26.4
+	PIL: 11.0.0
+=======hyper-parameter used========
+==========================================
+algorithm:ERM
+alpha:1
+anneal_iters:500
+batch_size:32
+beta:1
+beta1:0.5
+bottleneck:256
+checkpoint_freq:3
+classifier:linear
+data_file:
+dataset:sEMG
+data_dir:dataset/sEMG/
+dis_hidden:256
+disttype:2-norm
+gpu_id:0
+groupdro_eta:1
+inner_lr:0.01
+lam:1
+layer:bn
+lr:0.01
+lr_decay:0.75
+lr_decay1:1.0
+lr_decay2:1.0
+lr_gamma:0.0003
+max_epoch:120
+mixupalpha:0.2
+mldg_beta:1
+mmd_gamma:1
+momentum:0.9
+net:resnet50
+N_WORKERS:4
+rsc_f_drop_factor:0.3333333333333333
+rsc_b_drop_factor:0.3333333333333333
+save_model_every_checkpoint:False
+schuse:False
+schusech:cos
+seed:0
+split_style:strat
+task:img_dg
+tau:1
+test_envs:[0]
+output:train_output
+weight_decay:0.0005
+steps_per_epoch:100
+domains:['s1', 's2', 's3', 's4']
+img_dataset:{'office': ['amazon', 'dslr', 'webcam'], 'office-caltech': ['amazon', 'dslr', 'webcam', 'caltech'], 'office-home': ['Art', 'Clipart', 'Product', 'Real_World'], 'PACS': ['art_painting', 'cartoon', 'photo', 'sketch'], 'dg5': ['mnist', 'mnist_m', 'svhn', 'syn', 'usps'], 'VLCS': ['Caltech101', 'LabelMe', 'SUN09', 'VOC2007'], 'sEMG': ['s1', 's2', 's3', 's4']}
+input_shape:(3, 224, 224)
+num_classes:4
+domain_num:4
+
+===========start training===========
+===========epoch 0===========
+class_loss:0.1148
+train_acc:0.9437,valid_acc:0.9240,target_acc:0.6373
+total cost time: 126.8118
+===========epoch 3===========
+class_loss:0.0294
+train_acc:0.9647,valid_acc:0.9526,target_acc:0.5889
+total cost time: 253.4363
+===========epoch 6===========
+class_loss:0.0091
+train_acc:0.9984,valid_acc:0.9842,target_acc:0.6300
+total cost time: 380.5938
+===========epoch 9===========
+class_loss:0.0031
+Environment:
+	Python: 3.9.20
+	PyTorch: 2.5.1
+	Torchvision: 0.20.1
+	CUDA: None
+	CUDNN: None
+	NumPy: 1.26.4
+	PIL: 11.0.0
+=======hyper-parameter used========
+==========================================
+algorithm:DANN
+alpha:1
+anneal_iters:500
+batch_size:32
+beta:1
+beta1:0.5
+bottleneck:256
+checkpoint_freq:3
+classifier:linear
+data_file:
+dataset:sEMG
+data_dir:dataset/sEMG/
+dis_hidden:256
+disttype:2-norm
+gpu_id:0
+groupdro_eta:1
+inner_lr:0.01
+lam:1
+layer:bn
+lr:0.01
+lr_decay:0.75
+lr_decay1:1.0
+lr_decay2:1.0
+lr_gamma:0.0003
+max_epoch:10
+mixupalpha:0.2
+mldg_beta:1
+mmd_gamma:1
+momentum:0.9
+net:resnet50
+N_WORKERS:4
+rsc_f_drop_factor:0.3333333333333333
+rsc_b_drop_factor:0.3333333333333333
+save_model_every_checkpoint:False
+schuse:False
+schusech:cos
+seed:0
+split_style:strat
+task:img_dg
+tau:1
+test_envs:[0]
+output:train_output
+weight_decay:0.0005
+steps_per_epoch:100
+domains:['s1', 's2', 's3', 's4']
+img_dataset:{'office': ['amazon', 'dslr', 'webcam'], 'office-caltech': ['amazon', 'dslr', 'webcam', 'caltech'], 'office-home': ['Art', 'Clipart', 'Product', 'Real_World'], 'PACS': ['art_painting', 'cartoon', 'photo', 'sketch'], 'dg5': ['mnist', 'mnist_m', 'svhn', 'syn', 'usps'], 'VLCS': ['Caltech101', 'LabelMe', 'SUN09', 'VOC2007'], 'sEMG': ['s1', 's2', 's3', 's4']}
+input_shape:(3, 224, 224)
+num_classes:4
+domain_num:4
+
+===========start training===========
+Traceback (most recent call last):
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\train.py", line 143, in <module>
+    step_vals = algorithm.update(minibatches_device, opt, sch)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\alg\algs\DANN.py", line 25, in update
+    all_x = torch.cat([data[0].cuda().float() for data in minibatches])
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\alg\algs\DANN.py", line 25, in <listcomp>
+    all_x = torch.cat([data[0].cuda().float() for data in minibatches])
+  File "C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torch\cuda\__init__.py", line 310, in _lazy_init
+    raise AssertionError("Torch not compiled with CUDA enabled")
+AssertionError: Torch not compiled with CUDA enabled
+Environment:
+	Python: 3.9.20
+	PyTorch: 2.5.1
+	Torchvision: 0.20.1
+	CUDA: None
+	CUDNN: None
+	NumPy: 1.26.4
+	PIL: 11.0.0
+=======hyper-parameter used========
+==========================================
+algorithm:DANN
+alpha:1
+anneal_iters:500
+batch_size:32
+beta:1
+beta1:0.5
+bottleneck:256
+checkpoint_freq:3
+classifier:linear
+data_file:
+dataset:sEMG
+data_dir:dataset/sEMG/
+dis_hidden:256
+disttype:2-norm
+gpu_id:0
+groupdro_eta:1
+inner_lr:0.01
+lam:1
+layer:bn
+lr:0.01
+lr_decay:0.75
+lr_decay1:1.0
+lr_decay2:1.0
+lr_gamma:0.0003
+max_epoch:10
+mixupalpha:0.2
+mldg_beta:1
+mmd_gamma:1
+momentum:0.9
+net:resnet50
+N_WORKERS:4
+rsc_f_drop_factor:0.3333333333333333
+rsc_b_drop_factor:0.3333333333333333
+save_model_every_checkpoint:False
+schuse:False
+schusech:cos
+seed:0
+split_style:strat
+task:img_dg
+tau:1
+test_envs:[0]
+output:train_output
+weight_decay:0.0005
+steps_per_epoch:100
+domains:['s1', 's2', 's3', 's4']
+img_dataset:{'office': ['amazon', 'dslr', 'webcam'], 'office-caltech': ['amazon', 'dslr', 'webcam', 'caltech'], 'office-home': ['Art', 'Clipart', 'Product', 'Real_World'], 'PACS': ['art_painting', 'cartoon', 'photo', 'sketch'], 'dg5': ['mnist', 'mnist_m', 'svhn', 'syn', 'usps'], 'VLCS': ['Caltech101', 'LabelMe', 'SUN09', 'VOC2007'], 'sEMG': ['s1', 's2', 's3', 's4']}
+input_shape:(3, 224, 224)
+num_classes:4
+domain_num:4
+
+===========start training===========
+Traceback (most recent call last):
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\train.py", line 143, in <module>
+    step_vals = algorithm.update(minibatches_device, opt, sch)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\alg\algs\DANN.py", line 34, in update
+    disc_labels = torch.cat([
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\alg\algs\DANN.py", line 35, in <listcomp>
+    torch.full((data[0].shape[0], ), i,
+  File "C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torch\cuda\__init__.py", line 310, in _lazy_init
+    raise AssertionError("Torch not compiled with CUDA enabled")
+AssertionError: Torch not compiled with CUDA enabled
+Environment:
+	Python: 3.9.20
+	PyTorch: 2.5.1
+	Torchvision: 0.20.1
+	CUDA: None
+	CUDNN: None
+	NumPy: 1.26.4
+	PIL: 11.0.0
+Environment:
+	Python: 3.9.20
+	PyTorch: 2.5.1
+	Torchvision: 0.20.1
+	CUDA: None
+	CUDNN: None
+	NumPy: 1.26.4
+	PIL: 11.0.0
+=======hyper-parameter used========
+==========================================
+algorithm:DANN
+alpha:1
+anneal_iters:500
+batch_size:32
+beta:1
+beta1:0.5
+bottleneck:256
+checkpoint_freq:3
+classifier:linear
+data_file:
+dataset:sEMG
+data_dir:dataset/sEMG/
+dis_hidden:256
+disttype:2-norm
+gpu_id:0
+groupdro_eta:1
+inner_lr:0.01
+lam:1
+layer:bn
+lr:0.01
+lr_decay:0.75
+lr_decay1:1.0
+lr_decay2:1.0
+lr_gamma:0.0003
+max_epoch:10
+mixupalpha:0.2
+mldg_beta:1
+mmd_gamma:1
+momentum:0.9
+net:resnet50
+N_WORKERS:4
+rsc_f_drop_factor:0.3333333333333333
+rsc_b_drop_factor:0.3333333333333333
+save_model_every_checkpoint:False
+schuse:False
+schusech:cos
+seed:0
+split_style:strat
+task:img_dg
+tau:1
+test_envs:[0]
+output:train_output
+weight_decay:0.0005
+steps_per_epoch:100
+domains:['s1', 's2', 's3', 's4']
+img_dataset:{'office': ['amazon', 'dslr', 'webcam'], 'office-caltech': ['amazon', 'dslr', 'webcam', 'caltech'], 'office-home': ['Art', 'Clipart', 'Product', 'Real_World'], 'PACS': ['art_painting', 'cartoon', 'photo', 'sketch'], 'dg5': ['mnist', 'mnist_m', 'svhn', 'syn', 'usps'], 'VLCS': ['Caltech101', 'LabelMe', 'SUN09', 'VOC2007'], 'sEMG': ['s1', 's2', 's3', 's4']}
+input_shape:(8, 1, 200)
+num_classes:10
+domain_num:4
+
+===========start training===========
+===========epoch 0===========
+class_loss:0.0824,dis_loss:0.7801,total_loss:0.8625
+train_acc:0.9285,valid_acc:0.9244,target_acc:0.6566
+total cost time: 123.3568
+===========epoch 3===========
+class_loss:0.1977,dis_loss:0.8910,total_loss:1.0887
+train_acc:0.9629,valid_acc:0.9522,target_acc:0.6427
+total cost time: 251.5063
+===========epoch 6===========
+class_loss:0.0922,dis_loss:0.9687,total_loss:1.0609
+train_acc:0.9151,valid_acc:0.9056,target_acc:0.5763
+total cost time: 381.7377
+manually descrease lr
+manually descrease lr
+===========epoch 9===========
+class_loss:0.1771,dis_loss:0.8406,total_loss:1.0177
+train_acc:0.9891,valid_acc:0.9713,target_acc:0.6358
+total cost time: 512.1580
+valid acc: 0.9713
+DG result: 0.6358
+Environment:
+	Python: 3.9.20
+	PyTorch: 2.5.1
+	Torchvision: 0.20.1
+	CUDA: None
+	CUDNN: None
+	NumPy: 1.26.4
+	PIL: 11.0.0
+=======hyper-parameter used========
+==========================================
+algorithm:DANN
+alpha:1
+anneal_iters:500
+batch_size:32
+beta:1
+beta1:0.5
+bottleneck:256
+checkpoint_freq:1
+classifier:linear
+data_file:
+dataset:sEMG
+data_dir:dataset/sEMG/
+dis_hidden:256
+disttype:2-norm
+gpu_id:0
+groupdro_eta:1
+inner_lr:0.01
+lam:1
+layer:bn
+lr:0.01
+lr_decay:0.75
+lr_decay1:1.0
+lr_decay2:1.0
+lr_gamma:0.0003
+max_epoch:10
+mixupalpha:0.2
+mldg_beta:1
+mmd_gamma:1
+momentum:0.9
+net:resnet50
+N_WORKERS:4
+rsc_f_drop_factor:0.3333333333333333
+rsc_b_drop_factor:0.3333333333333333
+save_model_every_checkpoint:False
+schuse:False
+schusech:cos
+seed:0
+split_style:strat
+task:img_dg
+tau:1
+test_envs:[0]
+output:train_output
+weight_decay:0.0005
+steps_per_epoch:100
+domains:['s1', 's2', 's3', 's4']
+img_dataset:{'office': ['amazon', 'dslr', 'webcam'], 'office-caltech': ['amazon', 'dslr', 'webcam', 'caltech'], 'office-home': ['Art', 'Clipart', 'Product', 'Real_World'], 'PACS': ['art_painting', 'cartoon', 'photo', 'sketch'], 'dg5': ['mnist', 'mnist_m', 'svhn', 'syn', 'usps'], 'VLCS': ['Caltech101', 'LabelMe', 'SUN09', 'VOC2007'], 'sEMG': ['s1', 's2', 's3', 's4']}
+input_shape:(8, 1, 200)
+num_classes:10
+domain_num:4
+
+===========start training===========
+===========epoch 0===========
+class_loss:0.0824,dis_loss:0.7801,total_loss:0.8625
+train_acc:0.9285,valid_acc:0.9244,target_acc:0.6566
+模型已保存
+total cost time: 124.3629
+===========epoch 1===========
+class_loss:0.2914,dis_loss:0.9801,total_loss:1.2715
+train_acc:0.6856,valid_acc:0.6819,target_acc:0.3884
+total cost time: 247.9092
+===========epoch 2===========
+class_loss:0.1014,dis_loss:0.9148,total_loss:1.0162
+train_acc:0.9473,valid_acc:0.9411,target_acc:0.5962
+模型已保存
+total cost time: 370.6337
+===========epoch 3===========
+class_loss:0.0284,dis_loss:0.9568,total_loss:0.9851
+Environment:
+	Python: 3.9.20
+	PyTorch: 2.5.1
+	Torchvision: 0.20.1
+	CUDA: None
+	CUDNN: None
+	NumPy: 1.26.4
+	PIL: 11.0.0
+C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\eval.py:114: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  algorithm.load_state_dict(torch.load('train_output/DANN_[0]_model.pkl'))
+Traceback (most recent call last):
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\eval.py", line 114, in <module>
+    algorithm.load_state_dict(torch.load('train_output/DANN_[0]_model.pkl'))
+  File "C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torch\nn\modules\module.py", line 2584, in load_state_dict
+    raise RuntimeError(
+RuntimeError: Error(s) in loading state_dict for DANN:
+	Missing key(s) in state_dict: "featurizer.model.0.weight", "featurizer.model.0.bias", "featurizer.model.1.weight", "featurizer.model.1.bias", "featurizer.model.1.running_mean", "featurizer.model.1.running_var", "featurizer.model.3.weight", "featurizer.model.3.bias", "featurizer.model.4.weight", "featurizer.model.4.bias", "featurizer.model.4.running_mean", "featurizer.model.4.running_var", "featurizer.model.6.weight", "featurizer.model.6.bias", "featurizer.model.7.weight", "featurizer.model.7.bias", "featurizer.model.7.running_mean", "featurizer.model.7.running_var", "classifier.fc.weight", "classifier.fc.bias", "discriminator.layers.0.weight", "discriminator.layers.0.bias", "discriminator.layers.1.weight", "discriminator.layers.1.bias", "discriminator.layers.1.running_mean", "discriminator.layers.1.running_var", "discriminator.layers.3.weight", "discriminator.layers.3.bias", "discriminator.layers.4.weight", "discriminator.layers.4.bias", "discriminator.layers.4.running_mean", "discriminator.layers.4.running_var", "discriminator.layers.6.weight", "discriminator.layers.6.bias". 
+	Unexpected key(s) in state_dict: "args", "model_dict". 
+Environment:
+	Python: 3.9.20
+	PyTorch: 2.5.1
+	Torchvision: 0.20.1
+	CUDA: None
+	CUDNN: None
+	NumPy: 1.26.4
+	PIL: 11.0.0
+C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\eval.py:112: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(checkpoint_path, map_location=torch.device('cpu'))
+=======hyper-parameter used========
+==========================================
+algorithm:DANN
+alpha:1
+anneal_iters:500
+batch_size:32
+beta:1
+beta1:0.5
+bottleneck:256
+checkpoint_freq:1
+classifier:linear
+data_file:
+dataset:sEMG
+data_dir:dataset/sEMG/
+dis_hidden:256
+disttype:2-norm
+gpu_id:0
+groupdro_eta:1
+inner_lr:0.01
+lam:1
+layer:bn
+lr:0.01
+lr_decay:0.75
+lr_decay1:1.0
+lr_decay2:1.0
+lr_gamma:0.0003
+max_epoch:10
+mixupalpha:0.2
+mldg_beta:1
+mmd_gamma:1
+momentum:0.9
+net:resnet50
+N_WORKERS:4
+rsc_f_drop_factor:0.3333333333333333
+rsc_b_drop_factor:0.3333333333333333
+save_model_every_checkpoint:False
+schuse:False
+schusech:cos
+seed:0
+split_style:strat
+task:img_dg
+tau:1
+test_envs:[0]
+output:train_output
+weight_decay:0.0005
+steps_per_epoch:100
+domains:['s1', 's2', 's3', 's4']
+img_dataset:{'office': ['amazon', 'dslr', 'webcam'], 'office-caltech': ['amazon', 'dslr', 'webcam', 'caltech'], 'office-home': ['Art', 'Clipart', 'Product', 'Real_World'], 'PACS': ['art_painting', 'cartoon', 'photo', 'sketch'], 'dg5': ['mnist', 'mnist_m', 'svhn', 'syn', 'usps'], 'VLCS': ['Caltech101', 'LabelMe', 'SUN09', 'VOC2007'], 'sEMG': ['s1', 's2', 's3', 's4']}
+input_shape:(8, 1, 200)
+num_classes:10
+domain_num:4
+
+===========start eval===========
+train_acc:0.9473,valid_acc:0.9411,target_acc:0.5962,
+Environment:
+	Python: 3.9.20
+	PyTorch: 2.5.1
+	Torchvision: 0.20.1
+	CUDA: None
+	CUDNN: None
+	NumPy: 1.26.4
+	PIL: 11.0.0
+Traceback (most recent call last):
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\eval.py", line 140, in <module>
+    algorithm = load_checkpoint(algorithm, checkpoint_path)
+KeyboardInterrupt
+Environment:
+	Python: 3.9.20
+	PyTorch: 2.5.1
+	Torchvision: 0.20.1
+	CUDA: None
+	CUDNN: None
+	NumPy: 1.26.4
+	PIL: 11.0.0
+C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\eval.py:112: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(checkpoint_path, map_location=torch.device('cpu'))
+=======hyper-parameter used========
+==========================================
+algorithm:DANN
+alpha:1
+anneal_iters:500
+batch_size:32
+beta:1
+beta1:0.5
+bottleneck:256
+checkpoint_freq:1
+classifier:linear
+data_file:
+dataset:sEMG
+data_dir:dataset/sEMG/
+dis_hidden:256
+disttype:2-norm
+gpu_id:0
+groupdro_eta:1
+inner_lr:0.01
+lam:1
+layer:bn
+lr:0.01
+lr_decay:0.75
+lr_decay1:1.0
+lr_decay2:1.0
+lr_gamma:0.0003
+max_epoch:10
+mixupalpha:0.2
+mldg_beta:1
+mmd_gamma:1
+momentum:0.9
+net:resnet50
+N_WORKERS:4
+rsc_f_drop_factor:0.3333333333333333
+rsc_b_drop_factor:0.3333333333333333
+save_model_every_checkpoint:False
+schuse:False
+schusech:cos
+seed:0
+split_style:strat
+task:img_dg
+tau:1
+test_envs:[0]
+output:train_output
+weight_decay:0.0005
+steps_per_epoch:100
+domains:['s1', 's2', 's3', 's4']
+img_dataset:{'office': ['amazon', 'dslr', 'webcam'], 'office-caltech': ['amazon', 'dslr', 'webcam', 'caltech'], 'office-home': ['Art', 'Clipart', 'Product', 'Real_World'], 'PACS': ['art_painting', 'cartoon', 'photo', 'sketch'], 'dg5': ['mnist', 'mnist_m', 'svhn', 'syn', 'usps'], 'VLCS': ['Caltech101', 'LabelMe', 'SUN09', 'VOC2007'], 'sEMG': ['s1', 's2', 's3', 's4']}
+input_shape:(8, 1, 200)
+num_classes:10
+domain_num:4
+
+===========start eval===========
+train_acc:0.9473,valid_acc:0.9411,target_acc:0.5962,
+target_acc:  0.5962351133307722
+Environment:
+	Python: 3.9.20
+	PyTorch: 2.5.1
+	Torchvision: 0.20.1
+	CUDA: None
+	CUDNN: None
+	NumPy: 1.26.4
+	PIL: 11.0.0
+C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\eval.py:122: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(checkpoint_path, map_location=torch.device('cpu'))
+=======hyper-parameter used========
+==========================================
+algorithm:DANN
+alpha:1
+anneal_iters:500
+batch_size:32
+beta:1
+beta1:0.5
+bottleneck:256
+checkpoint_freq:1
+classifier:linear
+data_file:
+dataset:sEMG
+data_dir:dataset/sEMG/
+dis_hidden:256
+disttype:2-norm
+gpu_id:0
+groupdro_eta:1
+inner_lr:0.01
+lam:1
+layer:bn
+lr:0.01
+lr_decay:0.75
+lr_decay1:1.0
+lr_decay2:1.0
+lr_gamma:0.0003
+max_epoch:10
+mixupalpha:0.2
+mldg_beta:1
+mmd_gamma:1
+momentum:0.9
+net:resnet50
+N_WORKERS:4
+rsc_f_drop_factor:0.3333333333333333
+rsc_b_drop_factor:0.3333333333333333
+save_model_every_checkpoint:False
+schuse:False
+schusech:cos
+seed:0
+split_style:strat
+task:img_dg
+tau:1
+test_envs:[0]
+output:train_output
+weight_decay:0.0005
+steps_per_epoch:100
+domains:['s1', 's2', 's3', 's4']
+img_dataset:{'office': ['amazon', 'dslr', 'webcam'], 'office-caltech': ['amazon', 'dslr', 'webcam', 'caltech'], 'office-home': ['Art', 'Clipart', 'Product', 'Real_World'], 'PACS': ['art_painting', 'cartoon', 'photo', 'sketch'], 'dg5': ['mnist', 'mnist_m', 'svhn', 'syn', 'usps'], 'VLCS': ['Caltech101', 'LabelMe', 'SUN09', 'VOC2007'], 'sEMG': ['s1', 's2', 's3', 's4']}
+input_shape:(8, 1, 200)
+num_classes:10
+domain_num:4
+
+===========start eval===========
+Traceback (most recent call last):
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\eval.py", line 274, in <module>
+    test_model(algorithm, target_loader, device)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\eval.py", line 144, in test_model
+    for inputs, labels in test_loader:
+ValueError: too many values to unpack (expected 2)
+Environment:
+	Python: 3.9.20
+	PyTorch: 2.5.1
+	Torchvision: 0.20.1
+	CUDA: None
+	CUDNN: None
+	NumPy: 1.26.4
+	PIL: 11.0.0
+Environment:
+	Python: 3.9.20
+	PyTorch: 2.5.1
+	Torchvision: 0.20.1
+	CUDA: None
+	CUDNN: None
+	NumPy: 1.26.4
+	PIL: 11.0.0
+C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\eval.py:122: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(checkpoint_path, map_location=torch.device('cpu'))
+=======hyper-parameter used========
+==========================================
+algorithm:DANN
+alpha:1
+anneal_iters:500
+batch_size:32
+beta:1
+beta1:0.5
+bottleneck:256
+checkpoint_freq:1
+classifier:linear
+data_file:
+dataset:sEMG
+data_dir:dataset/sEMG/
+dis_hidden:256
+disttype:2-norm
+gpu_id:0
+groupdro_eta:1
+inner_lr:0.01
+lam:1
+layer:bn
+lr:0.01
+lr_decay:0.75
+lr_decay1:1.0
+lr_decay2:1.0
+lr_gamma:0.0003
+max_epoch:10
+mixupalpha:0.2
+mldg_beta:1
+mmd_gamma:1
+momentum:0.9
+net:resnet50
+N_WORKERS:4
+rsc_f_drop_factor:0.3333333333333333
+rsc_b_drop_factor:0.3333333333333333
+save_model_every_checkpoint:False
+schuse:False
+schusech:cos
+seed:0
+split_style:strat
+task:img_dg
+tau:1
+test_envs:[0]
+output:train_output
+weight_decay:0.0005
+steps_per_epoch:100
+domains:['s1', 's2', 's3', 's4']
+img_dataset:{'office': ['amazon', 'dslr', 'webcam'], 'office-caltech': ['amazon', 'dslr', 'webcam', 'caltech'], 'office-home': ['Art', 'Clipart', 'Product', 'Real_World'], 'PACS': ['art_painting', 'cartoon', 'photo', 'sketch'], 'dg5': ['mnist', 'mnist_m', 'svhn', 'syn', 'usps'], 'VLCS': ['Caltech101', 'LabelMe', 'SUN09', 'VOC2007'], 'sEMG': ['s1', 's2', 's3', 's4']}
+input_shape:(8, 1, 200)
+num_classes:10
+domain_num:4
+
+===========start eval===========
+Test Accuracy: 59.62%
+Environment:
+	Python: 3.9.20
+	PyTorch: 2.5.1
+	Torchvision: 0.20.1
+	CUDA: None
+	CUDNN: None
+	NumPy: 1.26.4
+	PIL: 11.0.0
+=======hyper-parameter used========
+==========================================
+algorithm:ERM
+alpha:1
+anneal_iters:500
+batch_size:32
+beta:1
+beta1:0.5
+bottleneck:256
+checkpoint_freq:1
+classifier:linear
+data_file:
+dataset:sEMG
+data_dir:dataset/sEMG/
+dis_hidden:256
+disttype:2-norm
+gpu_id:0
+groupdro_eta:1
+inner_lr:0.01
+lam:1
+layer:bn
+lr:0.01
+lr_decay:0.75
+lr_decay1:1.0
+lr_decay2:1.0
+lr_gamma:0.0003
+max_epoch:100
+mixupalpha:0.2
+mldg_beta:1
+mmd_gamma:1
+momentum:0.9
+net:resnet50
+N_WORKERS:4
+rsc_f_drop_factor:0.3333333333333333
+rsc_b_drop_factor:0.3333333333333333
+save_model_every_checkpoint:False
+schuse:False
+schusech:cos
+seed:0
+split_style:strat
+task:img_dg
+tau:1
+test_envs:[0]
+output:train_output
+weight_decay:0.0005
+steps_per_epoch:100
+domains:['s1', 's2', 's3', 's4']
+img_dataset:{'office': ['amazon', 'dslr', 'webcam'], 'office-caltech': ['amazon', 'dslr', 'webcam', 'caltech'], 'office-home': ['Art', 'Clipart', 'Product', 'Real_World'], 'PACS': ['art_painting', 'cartoon', 'photo', 'sketch'], 'dg5': ['mnist', 'mnist_m', 'svhn', 'syn', 'usps'], 'VLCS': ['Caltech101', 'LabelMe', 'SUN09', 'VOC2007'], 'sEMG': ['s1', 's2', 's3', 's4']}
+input_shape:(8, 1, 200)
+num_classes:6
+domain_num:4
+
+===========start training===========
+===========epoch 0===========
+class_loss:0.2879
+train_acc:0.8788,valid_acc:0.8654,target_acc:0.5397
+模型已保存
+total cost time: 123.8850
+===========epoch 1===========
+class_loss:0.1814

@@ -1,0 +1,245 @@
+Traceback (most recent call last):
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\train.py", line 107, in <module>
+    train_loaders, eval_loaders = get_img_dataloader(args)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\datautil\getdataloader.py", line 12, in get_img_dataloader
+    rate = 0.2
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.1.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1570, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.1.1\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\train.py", line 107, in <module>
+    train_loaders, eval_loaders = get_img_dataloader(args)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\datautil\getdataloader.py", line 19, in get_img_dataloader
+    tedatalist.append(ImageDataset(args.dataset, args.task, args.data_dir,
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\datautil\imgdata\imgdataload.py", line 12, in __init__
+    self.imgs = ImageFolder(root_dir+domain_name).imgs
+  File "C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torchvision\datasets\folder.py", line 328, in __init__
+    super().__init__(
+  File "C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torchvision\datasets\folder.py", line 149, in __init__
+    classes, class_to_idx = self.find_classes(self.root)
+  File "C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torchvision\datasets\folder.py", line 234, in find_classes
+    return find_classes(directory)
+  File "C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torchvision\datasets\folder.py", line 41, in find_classes
+    classes = sorted(entry.name for entry in os.scandir(directory) if entry.is_dir())
+FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'amazon'
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.1.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1570, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.1.1\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\train.py", line 107, in <module>
+    train_loaders, eval_loaders = get_img_dataloader(args)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\datautil\getdataloader.py", line 19, in get_img_dataloader
+    tedatalist.append(ImageDataset(args.dataset, args.task, args.data_dir,
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\datautil\imgdata\imgdataload.py", line 12, in __init__
+    self.imgs = ImageFolder(root_dir+domain_name).imgs
+  File "C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torchvision\datasets\folder.py", line 328, in __init__
+    super().__init__(
+  File "C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torchvision\datasets\folder.py", line 149, in __init__
+    classes, class_to_idx = self.find_classes(self.root)
+  File "C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torchvision\datasets\folder.py", line 234, in find_classes
+    return find_classes(directory)
+  File "C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torchvision\datasets\folder.py", line 41, in find_classes
+    classes = sorted(entry.name for entry in os.scandir(directory) if entry.is_dir())
+FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'dataset/office31amazon'
+C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Traceback (most recent call last):
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\train.py", line 110, in <module>
+    algorithm = algorithm_class(args).cuda()
+  File "C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torch\nn\modules\module.py", line 1050, in cuda
+    return self._apply(lambda t: t.cuda(device))
+  File "C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torch\nn\modules\module.py", line 900, in _apply
+    module._apply(fn)
+  File "C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torch\nn\modules\module.py", line 900, in _apply
+    module._apply(fn)
+  File "C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torch\nn\modules\module.py", line 927, in _apply
+    param_applied = fn(param)
+  File "C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torch\nn\modules\module.py", line 1050, in <lambda>
+    return self._apply(lambda t: t.cuda(device))
+  File "C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torch\cuda\__init__.py", line 310, in _lazy_init
+    raise AssertionError("Torch not compiled with CUDA enabled")
+AssertionError: Torch not compiled with CUDA enabled
+C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Traceback (most recent call last):
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\train.py", line 142, in <module>
+    step_vals = algorithm.update(minibatches_device, opt, sch)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\alg\algs\ERM.py", line 26, in update
+    all_x = torch.cat([data[0].cuda().float() for data in minibatches])
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\alg\algs\ERM.py", line 26, in <listcomp>
+    all_x = torch.cat([data[0].cuda().float() for data in minibatches])
+  File "C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torch\cuda\__init__.py", line 310, in _lazy_init
+    raise AssertionError("Torch not compiled with CUDA enabled")
+AssertionError: Torch not compiled with CUDA enabled
+C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Traceback (most recent call last):
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\train.py", line 142, in <module>
+    step_vals = algorithm.update(minibatches_device, opt, sch)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\alg\algs\ERM.py", line 32, in update
+    loss.backward()
+  File "C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torch\_tensor.py", line 581, in backward
+    torch.autograd.backward(
+  File "C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torch\autograd\__init__.py", line 347, in backward
+    _engine_run_backward(
+  File "C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torch\autograd\graph.py", line 825, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\train.py", line 108, in <module>
+    train_loaders, eval_loaders = get_img_dataloader(args)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\datautil\getdataloader.py", line 17, in get_img_dataloader
+    for i in range(len(names)):
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\train.py", line 109, in <module>
+    eval_name_dict = train_valid_target_eval_names(args)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\train.py", line 108, in <module>
+    train_loaders, eval_loaders = get_img_dataloader(args)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\datautil\getdataloader.py", line 16, in get_img_dataloader
+    args.domain_num = len(names)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.1.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1570, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.1.1\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\train.py", line 105, in <module>
+    args = get_args()
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\train.py", line 98, in get_args
+    args = img_param_init(args)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\utils\util.py", line 112, in img_param_init
+    args.domains = domains
+UnboundLocalError: local variable 'domains' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.1.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1570, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.1.1\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\train.py", line 105, in <module>
+    args = get_args()
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\train.py", line 98, in get_args
+    args = img_param_init(args)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\utils\util.py", line 112, in img_param_init
+    args.domains = domains
+UnboundLocalError: local variable 'domains' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.1.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1570, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.1.1\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\train.py", line 105, in <module>
+    args = get_args()
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\train.py", line 98, in get_args
+    args = img_param_init(args)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\utils\util.py", line 112, in img_param_init
+    args.domains = domains
+UnboundLocalError: local variable 'domains' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\train.py", line 109, in <module>
+    train_loaders, eval_loaders = get_img_dataloader(args)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\datautil\getdataloader.py", line 18, in get_img_dataloader
+    if i in args.test_envs:
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\train.py", line 112, in <module>
+    algorithm = algorithm_class(args).to(device)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\alg\algs\ERM.py", line 18, in __init__
+    self.featurizer = get_fea(args)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\alg\modelopera.py", line 7, in get_fea
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.1.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1570, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.1.1\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\train.py", line 112, in <module>
+    algorithm = algorithm_class(args).to(device)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\alg\algs\ERM.py", line 20, in __init__
+    args.num_classes, self.featurizer.in_features, args.classifier)
+AttributeError: 'Namespace' object has no attribute 'num_classes'
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.1.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1570, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.1.1\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\train.py", line 112, in <module>
+    algorithm = algorithm_class(args).to(device)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\alg\algs\ERM.py", line 20, in __init__
+    args.num_classes, self.featurizer.in_features, args.classifier)
+AttributeError: 'Namespace' object has no attribute 'num_classes'
+Traceback (most recent call last):
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\train.py", line 117, in <module>
+    s = print_args(args, [])
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\utils\util.py", line 63, in print_args
+    l = len(print_list)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\train.py", line 158, in <module>
+    acc_record[item] = np.mean(np.array([modelopera.accuracy(
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\train.py", line 158, in <listcomp>
+    acc_record[item] = np.mean(np.array([modelopera.accuracy(
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\alg\modelopera.py", line 57, in accuracy
+    x = data[0].cuda().float()
+  File "C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torch\cuda\__init__.py", line 310, in _lazy_init
+    raise AssertionError("Torch not compiled with CUDA enabled")
+AssertionError: Torch not compiled with CUDA enabled
+Traceback (most recent call last):
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\train.py", line 143, in <module>
+    step_vals = algorithm.update(minibatches_device, opt, sch)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\alg\algs\DANN.py", line 25, in update
+    all_x = torch.cat([data[0].cuda().float() for data in minibatches])
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\alg\algs\DANN.py", line 25, in <listcomp>
+    all_x = torch.cat([data[0].cuda().float() for data in minibatches])
+  File "C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torch\cuda\__init__.py", line 310, in _lazy_init
+    raise AssertionError("Torch not compiled with CUDA enabled")
+AssertionError: Torch not compiled with CUDA enabled
+Traceback (most recent call last):
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\train.py", line 143, in <module>
+    step_vals = algorithm.update(minibatches_device, opt, sch)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\alg\algs\DANN.py", line 34, in update
+    disc_labels = torch.cat([
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\alg\algs\DANN.py", line 35, in <listcomp>
+    torch.full((data[0].shape[0], ), i,
+  File "C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torch\cuda\__init__.py", line 310, in _lazy_init
+    raise AssertionError("Torch not compiled with CUDA enabled")
+AssertionError: Torch not compiled with CUDA enabled
+C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\eval.py:114: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  algorithm.load_state_dict(torch.load('train_output/DANN_[0]_model.pkl'))
+Traceback (most recent call last):
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\eval.py", line 114, in <module>
+    algorithm.load_state_dict(torch.load('train_output/DANN_[0]_model.pkl'))
+  File "C:\Users\pengf\anaconda3\envs\dl\lib\site-packages\torch\nn\modules\module.py", line 2584, in load_state_dict
+    raise RuntimeError(
+RuntimeError: Error(s) in loading state_dict for DANN:
+	Missing key(s) in state_dict: "featurizer.model.0.weight", "featurizer.model.0.bias", "featurizer.model.1.weight", "featurizer.model.1.bias", "featurizer.model.1.running_mean", "featurizer.model.1.running_var", "featurizer.model.3.weight", "featurizer.model.3.bias", "featurizer.model.4.weight", "featurizer.model.4.bias", "featurizer.model.4.running_mean", "featurizer.model.4.running_var", "featurizer.model.6.weight", "featurizer.model.6.bias", "featurizer.model.7.weight", "featurizer.model.7.bias", "featurizer.model.7.running_mean", "featurizer.model.7.running_var", "classifier.fc.weight", "classifier.fc.bias", "discriminator.layers.0.weight", "discriminator.layers.0.bias", "discriminator.layers.1.weight", "discriminator.layers.1.bias", "discriminator.layers.1.running_mean", "discriminator.layers.1.running_var", "discriminator.layers.3.weight", "discriminator.layers.3.bias", "discriminator.layers.4.weight", "discriminator.layers.4.bias", "discriminator.layers.4.running_mean", "discriminator.layers.4.running_var", "discriminator.layers.6.weight", "discriminator.layers.6.bias". 
+	Unexpected key(s) in state_dict: "args", "model_dict". 
+C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\eval.py:112: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(checkpoint_path, map_location=torch.device('cpu'))
+Traceback (most recent call last):
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\eval.py", line 140, in <module>
+    algorithm = load_checkpoint(algorithm, checkpoint_path)
+KeyboardInterrupt
+C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\eval.py:112: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(checkpoint_path, map_location=torch.device('cpu'))
+C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\eval.py:122: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(checkpoint_path, map_location=torch.device('cpu'))
+Traceback (most recent call last):
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\eval.py", line 274, in <module>
+    test_model(algorithm, target_loader, device)
+  File "C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\eval.py", line 144, in test_model
+    for inputs, labels in test_loader:
+ValueError: too many values to unpack (expected 2)
+C:\Users\pengf\Desktop\DLRepo\jindongwang transferlearning master code\DeepDG\eval.py:122: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(checkpoint_path, map_location=torch.device('cpu'))
